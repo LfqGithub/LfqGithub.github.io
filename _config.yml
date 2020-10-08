@@ -1,0 +1,160 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://yundongxiaoyang.top
+date_format: "ordinal"
+title: 运动小样
+subtitle: "运动小样学习的地方"
+description: "很懒，很少更新"
+keywords: 运动小样， yundongxiaoyang
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 运动小样
+organization: None
+organization_url: None
+github_username: LfqGithub
+location: Shanghai, China
+email: faqliu@foxmail.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /math/
+    label: 数学
+
+  -
+    href: /quant/
+    label: 金融
+
+  -
+    href: /other/
+    label: 其他 
+
+  -
+    href: /todo/
+    label: ToDo 
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+github: [metadata]
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+    math:
+        output: true
+        permalink: /math/:path/
+    quant:
+        output: true
+        permalink: /quant/:path/
+    other:
+        output: true
+        permalink: /other/:path/
+
+cdn:
+     jsdelivr:
+         enabled: true
+
+repository: LfqGithub/LfqGithub.github.io
+#repository: yundongxiaoyang/LfqGithub.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+#comments_provider: 
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+#disqus:
+#    username: 
+# https://imsun.net/posts/gitment-introduction/
+#gitment:
+#    owner: LfqGithub
+#    repo: github_pages_comments
+#    oauth:
+#        client_id: 487fa4d2a91f40c34fe0
+#        client_secret: 14578bf028396517502bd638dbbc7de2c9fda985
+# https://github.com/gitalk/gitalk#install
+#gitalk:
+#    owner: LfqGithub
+#    repo: github_pages_comments
+#    admin: LfqGithub
+#    distractionFreeMode: true
+#    clientID: 487fa4d2a91f40c34fe0
+#    clientSecret: 14578bf028396517502bd638dbbc7de2c9fda985
+# 在使用其它评论组件时可点击显示 Disqus
+#lazy_load_disqus : false
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
+leancloud:
+    enable: true
+    app_id: p6oeqQQvTO1AJr1AXoPyUP19-gzGzoHsz
+    app_key: t49UETibKa1NtHo5kcztm6nM
+
+# ------------------- #
+#      Search         #
+# ------------------- #
+simple_jekyll_search:
+    fulltext: false
+    limit: 10
+
+google: 
+    analytics_id: UA-133301105-1

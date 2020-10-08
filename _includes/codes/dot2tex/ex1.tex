@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[x11names, rgb]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{snakes,arrows,shapes}
+\usepackage{amsmath}
+%
+%
+
+%
+
+%
+
+\begin{document}
+\pagestyle{empty}
+%
+%
+%
+
+\enlargethispage{100cm}
+% Start of code
+% \begin{tikzpicture}[anchor=mid,>=latex',line join=bevel,]
+\begin{tikzpicture}[>=latex',line join=bevel,]
+  \pgfsetlinewidth{1bp}
+%%
+\pgfsetcolor{black}
+  % Edge: a_2 -> a_3
+  \draw [->] (44.116bp,147.83bp) .. controls (57.844bp,137.27bp) and (77.31bp,122.3bp)  .. (100.96bp,104.11bp);
+  % Edge: a_3 -> b_4
+  \draw [->] (128.44bp,73.116bp) .. controls (134.2bp,64.345bp) and (141.48bp,53.264bp)  .. (153.6bp,34.821bp);
+  % Edge: a_3 -> a_1
+  \draw [->] (124.89bp,107.86bp) .. controls (128.7bp,118.12bp) and (133.06bp,131.59bp)  .. (135.0bp,144.0bp) .. controls (142.42bp,191.42bp) and (139.03bp,204.17bp)  .. (135.0bp,252.0bp) .. controls (134.28bp,260.5bp) and (132.93bp,269.69bp)  .. (129.65bp,287.91bp);
+  % Edge: b_1 -> b_2
+  \draw [->] (99.0bp,215.7bp) .. controls (99.0bp,207.98bp) and (99.0bp,198.71bp)  .. (99.0bp,180.1bp);
+  % Edge: a_1 -> b_1
+  \draw [->] (119.6bp,288.41bp) .. controls (116.49bp,280.34bp) and (112.67bp,270.43bp)  .. (105.54bp,251.96bp);
+  % Edge: b_2 -> a_3
+  \draw [->] (103.6bp,144.05bp) .. controls (105.75bp,136.14bp) and (108.35bp,126.54bp)  .. (113.44bp,107.79bp);
+  % Edge: b_4 -> a_1
+  \draw [->] (165.08bp,36.276bp) .. controls (167.06bp,75.368bp) and (169.47bp,173.32bp)  .. (150.0bp,252.0bp) .. controls (147.67bp,261.4bp) and (143.72bp,271.2bp)  .. (135.18bp,288.85bp);
+  % Edge: a_1 -> a_2
+  \draw [->] (107.03bp,292.81bp) .. controls (93.257bp,283.14bp) and (75.007bp,268.54bp)  .. (63.0bp,252.0bp) .. controls (49.286bp,233.11bp) and (39.802bp,208.25bp)  .. (31.193bp,179.96bp);
+  % Node: a_3
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (118.0bp,90.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (118.0bp,90.0bp) node {a\_3};
+\end{scope}
+  % Node: a_2
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (27.0bp,162.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (27.0bp,162.0bp) node {a\_2};
+\end{scope}
+  % Node: a_1
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (126.0bp,306.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (126.0bp,306.0bp) node {$\frac{\gamma}{2x^2+y^3}$};
+\end{scope}
+  % Node: b_1
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (99.0bp,234.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (99.0bp,234.0bp) node {$\frac{\gamma}{x^2}$};
+\end{scope}
+  % Node: b_2
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (99.0bp,162.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (99.0bp,162.0bp) node {$b_2$};
+\end{scope}
+  % Node: b_4
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (164.0bp,18.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (164.0bp,18.0bp) node {$\beta$};
+\end{scope}
+%
+\end{tikzpicture}
+% End of code
+
+%
+\end{document}
+%
+
+
+

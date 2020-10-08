@@ -1,0 +1,20 @@
+import pandas as pd
+import numpy as np
+
+df=pd.read_excel('sales-funnel.xlsx')
+#print(df.head())
+df["Status"]=df["Status"].astype("category")
+df["Status"].cat.set_categories(["won", "pending", "present", "declined"], inplace=True)
+#print(pd.pivot_table(df, index=["Name"]))
+#print(pd.pivot_table(df, index=["Name", "Rep", "Manager"]))
+#print(pd.pivot_table(df, index=["Manager","Rep"]))
+#print(pd.pivot_table(df, index=["Manager","Rep"], values=["Price"]))
+#print(pd.pivot_table(df, index=["Manager","Rep"], values=["Price"], aggfunc=[np.sum, np.mean, len]))
+#print(pd.pivot_table(df, index=["Manager","Rep"], values=["Price"], aggfunc=[np.sum, np.mean, len], columns=["Product"]))
+#print(pd.pivot_table(df, index=["Manager","Rep"], values=["Price"], aggfunc=[np.sum], columns=["Product"]))
+#print(pd.pivot_table(df, index=["Manager","Rep", "Product"], values=["Price", "Quantity"], aggfunc=[np.sum], fill_value=0))
+#print(pd.pivot_table(df, index=["Manager","Rep", "Product"], values=["Price", "Quantity"], aggfunc=[np.sum], fill_value=0,margins=True))
+#print(pd.pivot_table(df, index=["Manager","Status"], values=["Price"], aggfunc=[np.sum], fill_value=0,margins=True))
+#print(pd.pivot_table(df, index=["Manager","Status"], columns=["Product"], values=["Quantity","Price"], aggfunc={"Quantity": len, "Price":np.sum}, fill_value=0,margins=True))
+table=pd.pivot_table(df, index=["Manager","Status"], columns=["Product"], values=["Quantity","Price"], aggfunc={"Quantity": len, "Price":[np.sum,np.mean]}, fill_value=0)
+print(table.query('Manager==["Debra Henley"]'))

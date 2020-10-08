@@ -1,0 +1,11 @@
+\documentclass[tikz]{standalone}
+\begin{document}
+\begin{tikzpicture}
+  \draw (0,0) -- (5mm, 5mm);
+  \draw (0,0) circle (10mm);
+  \draw (0,0) ellipse (5mm and 10mm);
+  \draw (0,0) rectangle  (-3mm , -3mm);
+  \draw (0,0) rectangle  (-3mm , -3mm);
+  \filldraw[fill=green!20!white, draw=green!50!black](0,0) -- (3mm,0mm) arc (0:30:3mm) -- cycle;
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,87 @@
+\documentclass[tikz]{standalone}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\begin{document}
+\begin{tikzpicture}
+
+\pgfooclass{circle visualizer}
+  {
+	% Stores the name of the visualizer. This is needed for filtering and configuration
+	\attribute name;
+	% The constructor. Just setup the attribute.
+	\method circle visualizer(#1) { \pgfooset{name}{#1} }
+	% Connect to visualize signal.
+	\method default connects() {
+	  \pgfoothis.get handle(\me)
+	\pgfkeysvalueof{/pgf/data visualization/obj}.connect(\me,visualize,visualize datapoint signal)
+}
+% This method is invoked for each data point. It checks whether the data point belongs to the correct
+% visualizer and, if so, calls the macro \dovisualization to do the actual visualization.
+\method visualize() {
+\pgfdvfilterpassedtrue
+\pgfdvnamedvisualizerfilter
+\ifpgfdvfilterpassed
+\dovisualization
+\fi
+}
+}
+
+\def\dovisualization{
+  \pgfkeysvalueof{/data point/\pgfoovalueof{name}/execute at begin}
+  \pgfpathcircle{\pgfpointdvdatapoint}{\pgfkeysvalueof{/data point/radius}}
+  % \pgfusepath is done by |execute at end|
+  \pgfkeysvalueof{/data point/\pgfoovalueof{name}/execute at end}
+}
+
+\tikzdatavisualizationset{
+	visualize as circle/.style={
+	  new object={
+		when=after survey,
+		store=/tikz/data visualization/visualizers/#1,
+		class=circle visualizer,
+		arg1=#1
+	  },
+	  new visualizer={#1}{%
+		color=visualizer color, % a color setup by the style sheet
+		every path/.style={fill,draw}, % fill and draw the circle by default,
+	  }{, % let's ignore legends in this example
+	  /data point/set=#1
+  },
+visualize as circle/.default=circle
+}}
+
+\datavisualization [scientific axes]
+[
+visualize as circle/.list={order,disorder},
+legend={north east outside},
+order={label in legend={text=$4^4$}},
+disorder={label in legend={text=disorder}}
+]
+data[set=order] {
+  x, y 
+  -4,61
+  -5,61
+  -4,62
+  -5,62
+  -1,63
+  -2,63
+  -3,63
+  -4,63
+  -5,63
+}
+data[set=disorder] {
+  x, y 
+  -1,60
+  -2,60
+  -3,60
+  -4,60
+  -5,60
+  -1,61
+  -2,61
+  -3,61
+  -1,62
+  -2,62
+  -3,62
+};
+\end{tikzpicture}
+\end{document}
