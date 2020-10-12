@@ -19,6 +19,10 @@ updating...
 <div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/figure-collection/dimension.jpg"/></div>
 <div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/figure-collection/knowledge_experience.png"/></div>
 
+- 也许你的顿悟，只是别人的基本功
+  - 多向巨人学习，而非接受二手的二手的......二手的知识
+
+
 # 其他行业
 
 -军工六性

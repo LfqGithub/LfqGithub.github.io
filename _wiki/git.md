@@ -199,6 +199,7 @@ $ vi .gitignore
 # Links
 - [git官网](https://git-scm.com/)
 - [猴子都能懂的git入门](https://backlogtool.com/git-tutorial/cn/)
+- [Git 教程--易百教程](https://www.yiibai.com/git)
 - [Pro Git](http://iissnan.com/progit/)
 - [remove merge conflicts](https://stackoverflow.com/questions/26376832/why-does-git-say-pull-is-not-possible-because-you-have-unmerged-files/27187110)
 - [force git pull](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)

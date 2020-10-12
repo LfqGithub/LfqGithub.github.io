@@ -9,10 +9,10 @@ keywords: python, basic
 Python 基础知识学习、记录、理解, updating...
 
 # 使用习惯
+使用 Python 时，竟然遇到 package 安装不上、平台不兼容(如 WSL 平台的 Python 竟然出现安装不上 Python package 问题), 以及需要同时使用多个Python版本的情形，为了减少这些烦恼，
+安装Python, Python package等操作，使用 Miniaconda, 以解决上述可能遇到的问题。
 
-安装Python, Python package，使用Miniaconda, 以解决python版本、package兼容等问题
-
->> Aconda 中的python版本一般领先于Ubuntu等系统中自带的版本.
+>> 1. Aconda 中的python版本一般领先于Ubuntu等系统中自带的版本.
 
 # Python Interpreters
 

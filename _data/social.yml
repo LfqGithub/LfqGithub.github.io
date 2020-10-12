@@ -2,6 +2,10 @@
   name: LfqGithub
   url: https://github.com/LfqGithub
 
+- sitename: GitHub Pages Repos
+  name: LfqGithub.github.io
+  url: https://github.com/LfqGithub/LfqGithub.github.io
+
 - sitename: 运动小样个人网站
   name: yundongxiaoyang
   url: http://yundongxiaoyang.top
