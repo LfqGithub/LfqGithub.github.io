@@ -6,6 +6,7 @@ description:
 keywords: git 
 ---
 
+- [ ] 待整理
 
 # Syntax
 
@@ -195,6 +196,32 @@ $ vi .gitignore
   - 修改或者删除冲突文件
   - `git commit -m "remove merge conflicts"`
   - `git pull origin branchName`
+
+# 撤销
+- `git checkout -- filename`: 抛弃文件 filename 的修改，将其还原为上次提交/克隆时的样子
+- `git reset Head filename`: 取消暂存，将 `git add`后的文件取消暂存，恢复到没有`git add`前的状态
+- `git commit --amend`: 修改上次的 commit message， 修改完后，上一次的commit message 不存在, 不会出现在仓库的提交历史中。
+
+
+# 暂存
+- `git stash`: 之后会迁移到命令`git stash push`。 该命令可以暂存不想提交的内容， 查看所有暂存：`git stash list`, 恢复暂存的内容：`git stash apply`, 恢复更旧的暂存: `git stash apply stashname`. 注意执行`git stash`前要执行和`git commit`之前相同的命令`git add something`
+# git简写
+- `git config --global alias.unstage 'reset HEAD --'`
+- `git config --global alias.last 'log -1 HEAD'`
+
+# 简化操作
+- `git commit -a -m 'message content'`
+  - `-a`: `-a` is shortcut of `-all`, this command tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
+  - `-m`: add commit message 
+ 
+# 理解
+- `git pull`=`git fetch + git merge`
+# 参考
+- git branch 逻辑关系--Git 分支(book: Pro Git)
+
+
+
+
 
 # Links
 - [git官网](https://git-scm.com/)
