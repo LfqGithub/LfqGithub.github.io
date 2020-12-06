@@ -8,6 +8,7 @@ description: acronym in daily life
 
 
 # Daily Life
+- **a.k.a**: Also known as 
 - **KPI**: Key Performance Indicator, or Key Performance Index, 关键业绩指标/指数
 - **GDP**: Gross Domestic Product, 国内生产总值
 - **VIP**: Very Important Person

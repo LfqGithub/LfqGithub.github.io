@@ -4,10 +4,10 @@
 Day4：择时策略示例
 """
 import pandas as pd
-import matplotlib.pyplot as plt
+import eplac.pyplot as plt
 
 
-# ===导入数据
+# ===
 df = pd.read_csv('创造191_历史选股记录_周_30.csv', 
                  encoding='GBK', 
                  parse_dates=['卖出日期'])
