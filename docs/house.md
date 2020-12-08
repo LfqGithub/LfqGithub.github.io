@@ -65,10 +65,13 @@ Updating......
 ## 交通出行
 
 ### 地铁
-
 - 上海地铁[现有线路图](http://sh.bendibao.com/ditie/linemap.shtml)
 
 ![](../images/life/上海地铁线路图.gif)
+
+- 上海地铁图--地图+地铁
+
+![](../images/life/real-metro-sh-2019.png)
 
 - 2020上海地铁[线路图](http://sh.bendibao.com/ditie/linemap.shtml)(现有+规划)
 
