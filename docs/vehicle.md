@@ -69,7 +69,7 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 |Tesla [Model 3](https://www.tesla.cn/model3)|2880|4694\*1849\*1443|24.99+||
 |丰田[亚洲龙混动](https://www.ftms.com.cn/buycar/cartype/detail/avalon)|2870|4975\*1850\*1450|23+|
 |本田[十代雅阁混动](https://www.ghac.cn/vehicles/honda/accord-sporthybrid/p#page9)|2830|4893\*1862\*1449|20+|
-|丰田[凯美瑞混动](https://www.gac-toyota.com.cn/vehicles/camryhev)|2825|4885\*1840\*1455|24+||
+|丰田[凯美瑞混动](https://www.gac-toyota.com.cn/vehicles/camryhev)|2825|4885\*1840\*1455|24+|轮距1575/1585mm|
 |丰田[雷凌双擎E+](https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18jy)|2700|4645\*1775\*1480|20.38+|轮距1525/1520mm|
 |丰田[汉兰达](https://www.gac-toyota.com.cn/minisite/Campaigns/2018/2018newhighlander/models?model=2.0e)|2790|4890\*1925\*1720|23.98+|轮距1635/1630mm|
 |比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|15.38+|轮距1630mm|
