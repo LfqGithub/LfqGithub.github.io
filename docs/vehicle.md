@@ -63,38 +63,17 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 
 ## 车辆信息
 
-- 比亚迪汉
-  - 轴距：2920 ? 
-  - 三围：?
-  - 价格：29万起?
-- Tesla [Model 3](https://www.tesla.cn/model3)
-  - 轴距：2880
-  - 三围：4694\*1849\*1443 (mm)
-  - 价格：30万起
-- 丰田[亚洲龙混动](https://www.ftms.com.cn/buycar/cartype/detail/avalon)
-  - 轴距：2870 mm
-  - 三围：4975\*1850\*1450 (mm)
-  - 价格：23万起
-- 本田[十代雅阁混动](https://www.ghac.cn/vehicles/honda/accord-sporthybrid/p#page9)
-  - 轴距：2830 mm
-  - 三围：4893\*1862\*1449 (mm)
-  - 价格：20万起
-- 丰田[凯美瑞混动](https://www.gac-toyota.com.cn/vehicles/camryhev)
-  - 轴距：2825 mm
-  - 三围：4885\*1840\*1455 (mm)
-  - 价格：24万起
-- 比亚迪[秦 Pro EV超能版](https://mall.bydauto.com.cn/item/A061)
-  - 轴距：2718 mm
-  - 三围：4765\*1837\*1515 (mm)
-  - 价格：15万起
-- 丰田[雷凌双擎E+](https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18jy)
-  - 轴距：2700 mm
-  - 三围：4645\*1775\*1480 (mm)
-  - 价格：
-- 上汽[荣威Ei5](https://www.roewe.com.cn/Netgreen/roeweei5/)
-  - 轴距：2665 
-  - 三围：4544\*1818\*1536 (mm)
-  - 价格：13万起
+| 车辆型号|轴距(mm)|三围(mm)|价格(万)|其他|
+|:--: |:--: |:--: |:--: |:--: |
+|比亚迪汉EV|2920||22.98+||
+|Tesla [Model 3](https://www.tesla.cn/model3)|2880|4694\*1849\*1443|30万起||
+|丰田[亚洲龙混动](https://www.ftms.com.cn/buycar/cartype/detail/avalon)|2870|4975\*1850\*1450|23+|
+|本田[十代雅阁混动](https://www.ghac.cn/vehicles/honda/accord-sporthybrid/p#page9)|2830|4893\*1862\*1449|20+|
+|丰田[凯美瑞混动](https://www.gac-toyota.com.cn/vehicles/camryhev)|2825|4885\*1840\*1455|24+||
+|丰田[雷凌双擎E+](https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18jy)|2700|4645\*1775\*1480|||
+|比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|15.38+|轮距1630mm|
+|比亚迪[秦Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D015QG21EG99)|2718|4765\*1837*1495|10.78+||
+
 
 # Ref 
 - [上海绿牌政策--20191126](http://wenda.bendibao.com/life/20191126/98893.shtm)
