@@ -12,6 +12,11 @@ Updating...
 - [ ] 待整理
 
 
+# Vim Appearance
+
+主题: [Vim scheme--Solarized](https://ethanschoonover.com/solarized/)
+
+
 # Vim History
 
 - `vi`： visual, 具体来源见book: Vim 使用技巧， 2ed, 第五章，命令行模式 
@@ -531,9 +536,9 @@ let g:Tex_Folding=0 "禁用代码折叠
 
 
 # Links
-
 - [install youcompleteme](http://www.bijishequ.com/detail/564645?p=)
 - [在 Vim 中优雅地查找和替换](http://harttle.com/2016/08/08/vim-search-in-file.html)
 - [vim-kuanghy](https://wiki.archlinux.org/index.php/Vim_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29#.E6.8B.BC.E5.86.99.E6.A3.80.E6.9F.A5)
 - [Copy, cut and paste of Vim](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
 - [Advanced commands of Vim](https://gist.github.com/fakemelvynkim/9546331)
+- [Vim-Solarized8: vim scheme with true color](https://github.com/lifepillar/vim-solarized8)
