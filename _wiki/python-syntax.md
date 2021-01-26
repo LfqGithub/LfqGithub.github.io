@@ -1,9 +1,8 @@
 ---
 layout: wiki
 title: Python Syntax
-keywords: python, syntax
+keywords: [python, syntax]
 categories: Python
-description: some word here
 comments: false
 ---
 
