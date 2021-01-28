@@ -10,6 +10,83 @@ title: Pandas
 - Series: 一维
 - DataFrame: 二维
 
+## 轴(axis)的概念
+
+```python
+
+import numpy as np
+import pandas as pd
+
+pd.set_option('display.unicode.ambiguous_as_wide', True)
+pd.set_option('display.unicode.east_asian_width', True)
+pd.set_option('display.width', 180)
+
+dates=pd.date_range('20200121', periods=6)
+df=pd.DataFrame(np.random.randn(6,4), index=dates,columns=list('abcd'))
+
+print('df:\n', df, '\n')
+print('df.mean(0):\n', df.mean(0), '\n')
+print('df.mean(1):\n', df.mean(1), '\n')
+print('df.apply(lambda x:x.max()-x.min(), axis=0):\n', df.apply(lambda x:x.max()-x.min(), axis=0))
+print('df.apply(lambda x:x.max()-x.min(), axis=1):\n', df.apply(lambda x:x.max()-x.min(), axis=1))
+
+'''
+轴的概念
+默认的轴为axis=0, 即垂直向下的方向。
+axis的重点在于方向，而不是行和列。
+- axis=0
+  - 沿着行的垂直向下 
+- axis=1: 
+  - 沿着列的方向水平延申, 表示横轴，方向从左到右
+  - 当axis=1时，数组的变化是横向的，体现出来的是列的增加和减少。
+  - 如果是求平均，意味着从左到右横向求平均，如果是拼接，意味着左右横向拼接，如果是drop, 横向变化，体现为列的减少
+>> links: [python数据分析里axis=0/1 行列定义为什么每次都不同？ - Isco的回答 - 知乎](https://www.zhihu.com/question/58993137/answer/375111564)
+'''
+```
+```bash
+$ python axis-pd.py
+
+df:
+                    a         b         c         d
+2020-01-21 -0.065037 -0.753123 -1.462927 -0.995091
+2020-01-22 -1.608109 -0.927458  1.084200 -1.180333
+2020-01-23 -0.262473 -0.847355  1.165586  0.402265
+2020-01-24 -0.664000  0.820257  1.442003  0.389481
+2020-01-25 -0.762001  1.888360 -0.666509  1.081992
+2020-01-26 -0.805037  0.810417 -0.638767 -0.610019 
+
+df.mean(0):
+ a   -0.694443
+b    0.165183
+c    0.153931
+d   -0.151951
+dtype: float64 
+
+df.mean(1):
+ 2020-01-21   -0.819045
+2020-01-22   -0.657925
+2020-01-23    0.114506
+2020-01-24    0.496935
+2020-01-25    0.385460
+2020-01-26   -0.310852
+Freq: D, dtype: float64 
+
+df.apply(lambda x:x.max()-x.min(), axis=0):
+ a    1.543072
+b    2.815817
+c    2.904930
+d    2.262326
+dtype: float64
+df.apply(lambda x:x.max()-x.min(), axis=1):
+ 2020-01-21    1.397890
+2020-01-22    2.692309
+2020-01-23    2.012941
+2020-01-24    2.106003
+2020-01-25    2.650361
+2020-01-26    1.615454
+Freq: D, dtype: float64
+```
+
 ## 初始化
 
 ```bash
