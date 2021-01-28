@@ -537,6 +537,7 @@ df2.columns_price_1st:
 - [pandas中axis的理解](https://www.jianshu.com/p/9aa448ea397c)
 
 ## 教程
+- [Pandas 中文教程--w3cschool--Recommend](https://www.w3cschool.cn/hyspo/hyspo-sufo3721.html)
 - [pandas guide](https://media.readthedocs.org/pdf/pandasguide/latest/pandasguide.pdf)
 - [python pandas tutorial](https://www.tutorialspoint.com/python_pandas/python_pandas_tutorial.pdf)
 - [Pandas使用](http://wiki.jikexueyuan.com/project/start-learning-python/311.html)
