@@ -10,6 +10,86 @@ title: Pandas
 - Series: 一维
 - DataFrame: 二维
 
+# 合并
+
+```python
+import pandas as pd
+import numpy as np
+
+def use_concat():
+    # concat: pandas.concat(objs, axis=0, join='outer', ignore_index=False, keys=None, levels=None, names=None, verify_integrity=False, sort=False, copy=True)
+    df1=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'))
+    df2=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'))
+    df3=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'))
+    print('df1:\n', df1,'\n')
+    print('df2:\n', df2,'\n')
+
+    concat_df=pd.concat([df1,df2,df3]) # 保留index
+    print('concat df1, df2, df3:\n', concat_df, '\n')
+
+    concat_df=pd.concat([df1,df2],ignore_index=True) # 不保留index
+    print('concat df1, df2, ignore_index=True:\n', concat_df, '\n')
+
+    concat_df=pd.concat([df1,df2],ignore_index=True) # 不保留index
+    print('concat df1 df2, ignore_index=True:\n', concat_df, '\n')
+
+    concat_df=pd.concat([df1,df2],keys=['df1','df2']) # 不保留index , 如ignore_index=True, 则keys设置不生效
+    print('concat df1 df2, keep keys\n', concat_df, '\n') # multiindex? 
+    print('concat_df.loc[df1]:\n', concat_df.loc['df1'], '\n')
+
+    # 横向合并dataframe
+    concat_df=pd.concat([df1,df2], axis=1) # 横向合并dataframe
+    print('concat df1 df2, axis=1: \n', concat_df, '\n')
+    # other parmeters: join_axes=[df1.index]
+    
+def use_append():
+    # append: DataFrame.append(other, ignore_index=False, verify_integrity=False, sort=False)
+    # 可将append看作concat的早期版本
+    df1=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'))
+    df2=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'))
+
+    append_df=df1.append(df2)
+    print('df1.append(df2):\n', append_df, '\n')
+    append_df=df1.append(df2,ignore_index=True)
+    print('df1.append(df2,ignore_index=True):\n', append_df, '\n')
+
+def use_merge():
+    '''
+    - merge: DataFrame.merge(right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, sort=False, suffixes=('_x', '_y'), copy=True, indicator=False, validate=None)
+    - pd.merge只能用于两个表的拼接，从参数left和right可以看出是左右拼接，只可以左右拼接。
+    - 如果两个表中有相同的列，则拼接时不用指定哪个字段作为主键
+    '''
+    df1=pd.DataFrame(np.random.randn(6,4), columns=list('abcd'),index=list('123456'))
+    df2=pd.DataFrame(np.random.randn(6,4), columns=list('defg'),index=list('456789'))
+    df1['key']=list('abcdef')
+    df2['key']=list('bcdefg')
+    print('df1:\n', df1,'\n')
+    print('df2:\n', df2,'\n')
+    merged_df=pd.merge(df1,df2,on='key') # on=key: 将两dataframe中列相同的值连接到一行上, how默认为'inner', 将key列值不相同的行删除
+    print('merged df, how=inner:\n', merged_df, '\n') 
+    merged_df=pd.merge(df1,df2,on='key', how='outer') #how='outer', 保留key值不相同的行
+    print('merged df, how=outer:\n', merged_df, '\n') 
+    left = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'], 'key2': ['K0', 'K1', 'K0', 'K1'], 'A': ['A0', 'A1', 'A2', 'A3'], 'B': ['B0', 'B1', 'B2', 'B3']})
+    right = pd.DataFrame({'key1': ['K0', 'K1', 'K1', 'K2'], 'key2': ['K0', 'K0', 'K0', 'K0'], 'C': ['C0', 'C1', 'C2', 'C3'], 'D': ['D0', 'D1', 'D2', 'D3']})
+    print('left dataframe:\n', left,'\n')
+    print('right dataframe:\n', right,'\n')
+    result=pd.merge(left, right,on='key1') # 相同的key组合在一起. 如果某一个dataframe中有两个相同的key对应元素有两个相同的，则相应的多出一行
+    print('pd.merge(left, right, key=key1):\n', result,'\n')
+    result=pd.merge(left, right,on=['key1','key2']) 
+    print('pd.merge(left, right, key=key1, key2):\n', result,'\n')
+
+
+#use_concat()
+#use_append()
+use_merge()
+
+
+# link: https://zhuanlan.zhihu.com/p/70438557
+# https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+# https://izziswift.com/differences-between-merge-and-concat-in-pandas/
+```
+
+
 ## 轴(axis)的概念
 
 ```python
