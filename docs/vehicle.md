@@ -73,8 +73,12 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 |丰田[雷凌双擎E+](https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18jy)|2700|4645\*1775\*1480|20.38+|轮距1525/1520mm|
 |丰田[汉兰达](https://www.gac-toyota.com.cn/minisite/Campaigns/2018/2018newhighlander/models?model=2.0e)|2790|4890\*1925\*1720|23.98+|轮距1635/1630mm|
 |比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|15.38+|轮距1630mm|
-|比亚迪[秦Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D015QG21EG99)|2718|4765\*1837*1495|10.78+||
+|比亚迪[秦Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D015QG21EG99)|2718|4765\*1837*1495|10.78+|轮距1580/1590mm|
 |日产[轩逸](https://www.dongfeng-nissan.com.cn/car-configuration-preferences-page?carSeriesId=507cf5b433174992ac49d1827b625b85&CarTypeId=242148)|2712|4641\*1815\*1450|11.90+|轮距1588/1594mm|
+|奥迪[A3](https://www.audi.cn/cn/web/zh/models/a3/a3_sportback.html#layer=/cn/web/zh/models/a3/a3_sportback/layer/six-icon-1.html)|2630|4343\*1815\*1458|20.31+|轮距1543/1514mm|
+|奥迪[A3L](https://contact.audi.cn/contact/performanceequipment_getequipment.htm?carStyleId=164187)|2680|4548\*1814\*1429|20.96+|轮距1543/1514mm|
+|奥迪[Q3](https://contact.audi.cn/contact/performanceequipment_getequipment.htm?carStyleId=164141)|2680|4518\*1843\*1573|28.73+|轮距1578/1570mm|
+|奥迪[Q5](https://contact.audi.cn/contact/performanceequipment_getequipment.htm?carStyleId=164162)|2908|4778\*1892\*1666|42.68+|轮距1616/1609mm|
 
 
 # Ref 
