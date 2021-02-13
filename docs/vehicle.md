@@ -26,8 +26,8 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 
 ## 汽车自动化分级
 《汽车驾驶自动化分级》(已通过全国汽车标准化技术委员会评审, 将于2020年发布): 该标准将自动化驾驶分为5级，其中 L5 为完全自动驾驶，任何情况下都不需要人工接管。如下图所示（[图片来源](https://k.sina.com.cn/article_6087550565_16ad8a66500100mer6.html)）
-<div align="center"><img width="400" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/vehicle/vehicle_auto_drive_level.jpg"/></div>
 
+![](../images/vehicle/vehicle_auto_drive_level.jpg)
 
 
 ## 庖丁解牛--车辆配件知识
