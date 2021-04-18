@@ -63,7 +63,7 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 
 ## 车辆信息
 
-| 车辆型号|轴距(mm)|三围(mm)|价格(万)|其他|
+| 车辆型号|轴距(mm)|三围(长宽高mm)|价格(万)|其他|
 |:--: |:--: |:--: |:--: |:--: |
 |比亚迪[汉EV](http://www.bydauto.com.cn/auto/carShow.html-param=%E6%B1%89EV)|2920|4980\*1910\*1495|22.98+|轮距1640mm|
 |Tesla [Model 3](https://www.tesla.cn/model3)|2880|4694\*1849\*1443|24.99+||
@@ -75,6 +75,7 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 |比亚迪[宋pro 2gen](https://www.bydauto.com.cn/auto/carShow.html-param=%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%AE%8BPro)|2712|4650\*1860\*1700|9.28+|轮距1565mm|
 |比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|15.38+|轮距1630mm|
 |比亚迪[秦Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D015QG21EG99)|2718|4765\*1837*1495|10.78+|轮距1580/1590mm|
+|吉利[星瑞](https://preface.geely.com/preface)|2800|4785\*1869\*1469|11.37+|轮距1618mm|
 |日产[轩逸](https://www.dongfeng-nissan.com.cn/car-configuration-preferences-page?carSeriesId=507cf5b433174992ac49d1827b625b85&CarTypeId=242148)|2712|4641\*1815\*1450|11.90+|轮距1588/1594mm|
 |奥迪[A3](https://www.audi.cn/cn/web/zh/models/a3/a3_sportback.html#layer=/cn/web/zh/models/a3/a3_sportback/layer/six-icon-1.html)|2630|4343\*1815\*1458|20.31+|轮距1543/1514mm|
 |奥迪[A3L](https://contact.audi.cn/contact/performanceequipment_getequipment.htm?carStyleId=164187)|2680|4548\*1814\*1429|20.96+|轮距1543/1514mm|
