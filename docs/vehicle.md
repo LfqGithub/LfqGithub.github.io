@@ -72,8 +72,9 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 |丰田[雷凌双擎E+](https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18jy)|2700|4645\*1775\*1480|20.38+|轮距1525/1520mm|
 |丰田[汉兰达](https://www.gac-toyota.com.cn/minisite/Campaigns/2018/2018newhighlander/models?model=2.0e)|2790|4890\*1925\*1720|23.98+|轮距1635/1630mm|
 |比亚迪[秦Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D015QG21EG99)|2718|4765\*1837*1495|10.78+|轮距1580/1590mm|
+|比亚迪[秦Plus ev](https://www.bydauto.com.cn/auto/carShow.html-param=%E7%A7%A6PLUSEV)|2718|4765\*1837*1515|12.98+|轮距1580mm|
 |比亚迪[宋pro 2gen](https://www.bydauto.com.cn/auto/carShow.html-param=%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%AE%8BPro)|2712|4650\*1860\*1700|9.28+|轮距1565mm|
-|比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|15.38+|轮距1630mm|
+|比亚迪[宋Plus dmi](http://mall.bydauto.com.cn/pc/activityDetail/?id=D017QG21EG99)|2765|4705\*1890\*1680|14.68+|轮距1630mm|
 |比亚迪[唐 dmi](https://www.bydauto.com.cn/auto/carShow.html-param=%E5%94%90DM-i) |2820|4870\*1950\*1725|18.98+|轮距1650/1630mm|
 |比亚迪[汉EV](http://www.bydauto.com.cn/auto/carShow.html-param=%E6%B1%89EV)|2920|4980\*1910\*1495|22.98+|轮距1640mm|
 |吉利[星瑞](https://preface.geely.com/preface)|2800|4785\*1869\*1469|11.37+|轮距1618mm|
