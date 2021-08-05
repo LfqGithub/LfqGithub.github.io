@@ -73,7 +73,7 @@ B级车到了2900mm (如丰田2019凯美瑞双擎--[Toyota Camry Hev](https://ww
 |奥迪[A3L](https://contact.audi.cn/contact/performanceequipment_getequipment.htm?carStyleId=164187)|2680|4548\*1814\*1429|20.96+|轮距1543/1514mm|
 |吉利[星瑞](https://preface.geely.com/preface)|2800|4785\*1869\*1469|11.37+|轮距1618mm|
 |比亚迪[汉EV](http://www.bydauto.com.cn/auto/carShow.html-param=%E6%B1%89EV)|2920|4980\*1910\*1495|22.98+|轮距1640mm|
-|Tesla [Model 3](https://www.tesla.cn/model3)|2880|4694\*1849\*1443|24.99+||
+|Tesla [Model 3](https://www.tesla.cn/model3)|2875|4694\*1849\*1443|24.99+||
 |Tesla [Model Y](https://www.tesla.cn/modely)|2890|4750\*1921\*1624|27.6+||
 |丰田[亚洲龙混动](https://www.ftms.com.cn/buycar/cartype/detail/avalon)|2870|4975\*1850\*1450|23+|
 |本田[十代雅阁混动](https://www.ghac.cn/vehicles/honda/accord-sporthybrid/p#page9)|2830|4893\*1862\*1449|20+|

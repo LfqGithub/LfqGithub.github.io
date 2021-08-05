@@ -6,13 +6,16 @@ description: website, note
 keywords: note, website
 ---
 
+# 可视化
+- [数据结构和算法动态可视化](https://visualgo.net/zh)
+- [Data Structure Visualizaiton](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
 
 # 日常关注
 
 - [中国政府官网](http://www.gov.cn/)
 
 # 学习类网站/博主
-
 - [3blue1brown](https://space.bilibili.com/88461692?spm_id_from=333.788.b_765f7570696e666f.2): 数学知识
 - [Wiki](www.wikipedia.org): 百科知识
 - [WikiTRIBUNE](https://www.wikitribune.com)： 非谣言新闻
