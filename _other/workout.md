@@ -10,20 +10,21 @@ description: workout
 
 
 
-# 健身方法
 
-## Warm-up
+## 热身Warm-up
 - 求求你了大腿内收肌拉伸--30s
 - 徒手深蹲--15次
 
-## Stretch
+## 拉伸Stretch
 
 - 大腿前侧拉伸(左右各30s, 身体前倾可以增加拉伸感)
 - 胸肌拉伸--左右各30s
 
 ![](/images/workout/warm-up_and_stretch.png)
 
-## Burpee
+# 运动项目
+
+## 波比跳Burpee
 动作要点
 - 练前热身：扩胸运动20次，墙壁俯卧撑15次, 求求你了大腿内收肌拉伸30s
 - Burpee跳过程中，到达平板支撑动作时，整个身体是用核心撑起来的，身体不要出现塌腰现象。
@@ -33,14 +34,14 @@ description: workout
 
 ![](/images/workout/burpee.gif){:.center_w400}
 
-## Plank
+## 平板支撑Plank
 - 腰，屁股，肩膀在一条直线上，用腹部肌肉支撑
 - 组数要够，每天4组，每组2分钟（初学者45秒），最少三组。
 
 ![](/images/workout/plank.PNG){:.center_w400}
 
 
-## Push-Up
+## 俯卧撑Push-Up
 
 ![](/images/workout/gongfu_panda_push-up.webp){:.center_w200}
 
@@ -53,21 +54,23 @@ description: workout
 ![](/images/workout/push_up_notice.png)
 
 
-## Pull-up
 
 ## 跳绳
 
 跳绳为双腿运动,而跑步为单腿运动, 跳绳对膝盖的损伤弱于跑步, 相同时间下燃脂效果却好于跑步. 但一般人跳绳持续时间不如跑步.
 
-### 双摇跳绳 
+### 双摇
 
 [双摇跳绳](https://zhuanlan.zhihu.com/p/80180288)可以很好的练习手腕的爆发力和身体的协调性。
+
+
+# 运动损伤
 
 ## 运动对膝盖的损伤程度
 羽毛球 > 跑步 >> 跳绳
 
 
-# 运动消耗与饮食热量
+# 运动消耗
 
 简单计算，一个 70 公斤的人以 8 km/h 的速度跑步 1 h 消耗约 600 kcal. 
 
