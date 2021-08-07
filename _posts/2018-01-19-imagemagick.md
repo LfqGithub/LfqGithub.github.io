@@ -11,7 +11,9 @@ Linux 命令行图像处理, updating......
 ## 示例
 
 ```bash
-# sudo apt install imagemagick
+# sudo apt install imagemagick python3-tk
+# add export DISPLAY=localhost:0.0 to ~/.bashrc
+
 $ convert -density 150 input.pdf -quality 90 output.png  
 PNG, JPG or (virtually) any other image format can be chosen
 -density xxx will set the dpi to xxx (common are 150 and 300)
