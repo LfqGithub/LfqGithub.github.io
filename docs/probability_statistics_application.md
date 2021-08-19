@@ -42,11 +42,11 @@ $P(A\vert m)P(m)=P(Am)=P(m\vert A)P(A)$
 
 我们先将其他必要的概率求出来：
 
-$P(m)=P(m\vertA)P(A)+P(m\vertB)P(B)+P(m\vertC)P(C)=1/2\*1/3+0+1\*1/3=1/2$
+$P(m)=P(m\vert A)P(A)+P(m\vert B)P(B)+P(m\vert C)P(C)=1/2\*1/3+0+1\*1/3=1/2$
 
-$P(m\vertA)=1/2, P(A)=1/3$
+$P(m\vert A)=1/2, P(A)=1/3$
 
-$P(A\vertm)=(1/2\*1/3) / 1/2=1/3$
+$P(A\vert m)=(1/2\*1/3) / 1/2=1/3$
 
 同理，我们求出
 
