@@ -111,9 +111,10 @@ $$
 
 - `\bf`: ${\bf r,u}$
 
-### 戴帽
+### 上标
 
 `\overline{A}`: $\overline{A}$, 读作A bar。
+`\hat{A}`: $\hat{A}$
 
 
 ## 其他
@@ -134,8 +135,8 @@ $$
 
 ## 概率统计常用符号
 
-$\vert$: `\vert`, 表示 given that, 用于条件概率，如$P(A\vert B)$
-${n \choose k}$: 表示组合数，等同于$C_n^k$。
+- $\vert$: `\vert`, 表示 given that, 用于条件概率，如$P(A\vert B)$
+- ${n \choose k}$: 表示组合数，等同于$C_n^k$。
 
 ## 特殊格式
 - 字符在符号上方 `X_1,X_2,...,X_n\stackrel{IDD}{\sim}F(x)`: $X_1,X_2,...,X_n\stackrel{IDD}{\sim}F(x)$
