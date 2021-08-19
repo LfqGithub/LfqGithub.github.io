@@ -3,6 +3,7 @@ layout: wiki
 title: 位运算
 keywords: [bit, operation]
 categories: [math, code]
+use_math: true
 description: 
 ---
 
