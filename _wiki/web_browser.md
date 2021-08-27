@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  Web Browser
-categories: Software
-keywords: edge, chrome, browser, web
+layout: wiki
+title: 浏览器使用
+keywords: 
+categories: [web browser, softwares]
+description: How to browse the web
+comments: yes
 ---
 
 Browser Softwares, updating ...
@@ -27,10 +29,8 @@ Browser Softwares, updating ...
 - [Always Clear Downloads](https://chrome.google.com/webstore/detail/always-clear-downloads-in/efoelbbfbknfhpmgclpcdbkoieedkkai): 下载完成后自动隐藏下载栏
 - [TemperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo): Userscript manager
   - Sci-hub button: 在doi链接后添加scihub按钮，直接跳转到sci-hub下载链接
-  - [IT之家纯净版](https://greasyfork.org/zh-CN/scripts/389709-it%E4%B9%8B%E5%AE%B6%E7%BA%AF%E5%87%80%E7%89%88): 去除无用内容，保留文章及评论主题信息
-  - [极简知乎](https://greasyfork.org/zh-CN/scripts/37823-%E6%9E%81%E7%AE%80%E7%9F%A5%E4%B9%8E):网页全宽度，去除无用内容
   - [本地Youtube下载器](https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader)
-  - [Clean zhuanlan.zhihu](https://greasyfork.org/zh-CN/scripts/369540-clean-zhuanlan-zhihu): 打印知乎专栏，去除普通网页打印专栏内容时出现的遮挡元素
+  - [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe): 屏蔽特定网站在google搜索结果中的展示。
 
 
 
