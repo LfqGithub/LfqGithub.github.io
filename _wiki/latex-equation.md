@@ -7,6 +7,7 @@ use_math: true
 keywords: latex, symbol, equation, 符号, 公式
 ---
 
+
 # Equation
 
 ## 等号对齐
@@ -54,6 +55,11 @@ $$f(x)=\begin{cases}\lambda e^{-\lambda x} & (x>0) \\
 
 - `\sim`: $\sim$
 - `\backslash`: $\backslash$ 
+
+## 数字处理
+
+- `\lfloor n \rfloor`: $\lfloor n \rfloor$, 下取整
+- `\lceil n \rceil`: $\lfloor n \rfloor$, 上取整
 
 ## 集合
 
