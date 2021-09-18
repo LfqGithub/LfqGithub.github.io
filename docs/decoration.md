@@ -1,5 +1,5 @@
 ---
-layout: other
+layout: wiki
 title: Decoration
 keywords: decoration of new house
 categories: [house, room]
