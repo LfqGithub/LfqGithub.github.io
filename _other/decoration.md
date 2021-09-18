@@ -31,9 +31,8 @@ description: For future
 
 <div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/closet.png"/></div>
 
-使用推拉裤架收纳裤子 (拉拉宜居-[抽拉伸缩裤架](https://item.taobao.com/item.htm?spm=2013.1.0.0.52694c2cvw35m3&id=576591377668&scm=1007.12144.97955.42296_0_0&pvid=7b7eb92e-627e-47ab-881d-1743719eb257&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A1%2C%22x_pvid%22%3A%227b7eb92e-627e-47ab-881d-1743719eb257%22%2C%22x_object_id%22%3A576591377668%7D))
-
-<div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/推拉裤架.png"/></div>
+统一所有衣架，使用304不锈钢一体衣架，裤子和上衣同样使用衣架挂起来
+<div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/hanger.jpg"/></div>
 
 # 沙发
 采用简单的椅式沙发, 如[下图](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w8631129-21520405239.37.5678e6b1PQa67w&id=569640810678)

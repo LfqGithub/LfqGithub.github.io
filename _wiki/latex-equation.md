@@ -189,7 +189,7 @@ $$
 
 
 ## 数学符号
-
+- n方根: `\sqrt[n]{x}` $\sqrt[n]{x}$
 - 梯度：`\nabla` $\nabla$
 - 平均：`\langle a \rangle` $\langle a \rangle$ 
 - 泛函: `\mathcal D` $\mathcal D$ 
