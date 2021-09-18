@@ -33,7 +33,7 @@ cell系统的的电流响应是伪/准线性的(pseudo-linear)，对于一个线
 
 施加的交流电压这一刺激信号可以表示为: 
 
-$$E_t=E_0 sin(\omega t)$$
+$E_t=E_0 sin(\omega t)$
 
 $E_t$是在时间$t$时的电压，$E_0$是信号的幅度，$\omega$是角频率(radial frequency, 角频率和频率(单位：赫兹 Hz)的关系为$\omega=2\pi f$)。
 在线性/准线性系统中，响应电流$I_t$会产生相移$\phi$，且幅度变为$I_0$, 响应电流为
@@ -42,7 +42,7 @@ $I_t=I_0 sin(\omega t + \phi)$
 
 阻抗的定义和欧姆定律相似
 
-$$Z=\frac{E_t}{I_t}=\frac{E_0 sin(\omega t)}{I_0 sin(\omega t + \phi)}=Z_0 \frac{sin(\omega t)}{sin(\omega t + \phi)}$$
+$Z=\frac{E_t}{I_t}=\frac{E_0 sin(\omega t)}{I_0 sin(\omega t + \phi)}=Z_0 \frac{sin(\omega t)}{sin(\omega t + \phi)}$
 
 阻抗因此包含阻抗的幅度$Z_0$和相移$\phi_0$。
 将刺激信号和响应信号绘制在$X-Y$坐标系中，我们可以得到利萨茹曲线(Lissajous Figure)
@@ -52,19 +52,19 @@ $$Z=\frac{E_t}{I_t}=\frac{E_0 sin(\omega t)}{I_0 sin(\omega t + \phi)}=Z_0 \frac
 
 根据欧拉公式(Eulers relationship)
 
-$$ \exp(i\phi)=cos\phi + i sin\phi$$
+$\exp(i\phi)=cos\phi + i sin\phi$
 
 将刺激信号表示为
 
-$$ E_t=E_0 sin(i\omega t)$$
+$E_t=E_0 sin(i\omega t)$
 
 对应的响应信号为
 
-$$I_t=I_0 sin(i\omega t -\phi)$$
+$I_t=I_0 sin(i\omega t -\phi)$
 
 阻抗可以表示为一个复数
 
-$$Z(\omega)=\frac{E}{I}=Z_0 \exp(i\phi)=Z_0\exp(cos\phi+i\sin\phi)$$
+$Z(\omega)=\frac{E}{I}=Z_0 \exp(i\phi)=Z_0\exp(cos\phi+i\sin\phi)$
 
 
 # EIS Data Presentation

@@ -10,6 +10,14 @@ description: Study
 
 # 工作桌
 
+## \#0
+
+舍弃掉桌子，改为挂墙安装方式，省去四条桌腿，营造悬浮感
+
+<div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/desk0.png"/></div>
+
+使用普通支架显示器 + type-c 一线连接笔记本电脑, 外接键鼠
+
 ## \#1
 
 尺寸要求: 宽 $\geq$ 150 cm，深度 $\geq$ 80 cm, 高度通过升降支架调整。注意如靠墙放置，书桌后需留空 20 cm，供显示器支撑臂活动。
