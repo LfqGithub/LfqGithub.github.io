@@ -27,6 +27,8 @@ description: Study
 
 <div align="center"><img width="400" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/lift-desk.jpg"/></div>
 
+> 不够极简，已淘汰
+
 
 ## \#2
 
@@ -38,6 +40,7 @@ description: Study
 
 <div align="center"><img width="400" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/haochi.jpg"/></div>
 
+> 不够极简，已淘汰
 
 
 # 桌面设备
@@ -72,14 +75,9 @@ description: Study
 - 机箱风扇：直径 140mm,厚度 < 15mm,孔距 105mm
 - 硬盘全部采用 M.2 接口以避免接线。
 
+> 不够极简，已淘汰
+
 ## 笔记本
 
 - 具全功能Type-C (TB3/USB4 更佳) 接口的大屏笔记本
 - Type C 磁吸式充电数据传输线
-
-## 影音
-
-- 照片+视频存储/备份/观看解决方案 
-  - NAS 存储/管理文件
-  - emby 管理图片/视频
-
