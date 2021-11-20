@@ -11,6 +11,8 @@ Browser Softwares, updating ...
 
 # Edge (Chromium Core)
 
+> Edge with Chromium Core 目前使用体验已经很好，但是有一些bug还是无法做到好用， 比如登录edge浏览器就要微软账号，这样就无法在公司电脑和个人电脑同步书签、插件等。另外，一些谷歌插件，尤其是谷歌官方插件及主题无法在edge中使用。 可以将edge浏览器当作备用浏览器。
+
 ## Dark Mode
 - 打开网址 edge://flags
 - 搜索 enable-force-dark（强制启用暗黑模式），出现一个标题为“Force Dark Mode for Web Contents”的选项，修改为enabled.
@@ -24,15 +26,16 @@ Browser Softwares, updating ...
 
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb): 使用Vim命令操作浏览器
 - [Vimium C](https://github.com/gdh1995/vimium-c): 和Vimium功能相同，速度更快
-- [PDF Viewer C](https://chrome.google.com/webstore/detail/pdf-viewer-for-vimium-c/nacjakoppgmdcpemlfnfegmlhipddanj?hl=en-US)
 - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb): 屏蔽网页广告
 - [Always Clear Downloads](https://chrome.google.com/webstore/detail/always-clear-downloads-in/efoelbbfbknfhpmgclpcdbkoieedkkai): 下载完成后自动隐藏下载栏
 - [TemperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo): Userscript manager
   - Sci-hub button: 在doi链接后添加scihub按钮，直接跳转到sci-hub下载链接
   - [本地Youtube下载器](https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader)
-  - [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe): 屏蔽特定网站在google搜索结果中的展示。
+- [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe): 屏蔽特定网站在google搜索结果中的展示, 如不想在谷歌搜索中显示cdsn等
 
+## Themes
 
+- 黑暗模式： 使用chrome官方的just black主题，且在`chrome://flags`中搜索force dark mode, 打开强制黑暗模式
 
 ## Change the search engine of address bar
 - 以在地址栏使用知乎搜索引擎为例
@@ -62,17 +65,3 @@ Browser Softwares, updating ...
 
 ### Scaling
 - 2K 分辨率下将缩放调整为125%, 4k分辨率下将电脑缩放改为200%
-
-### Force start the dark-mode
-
-- 更新谷歌浏览器到最新版
-- 打开网址 chrome://flags
-- 搜索 enable-force-dark（强制启用暗黑模式），出现一个标题为“Force Dark Mode for Web Contents”的选项，修改为enabled.
-- 重启Chrome
-- 禁用该功能可同样按照上述步骤操作。
-
-### Extend display region
-
-- 浏览器默认隐藏书签栏。`Ctrl+Shift+B`隐藏书签栏，使用Vimium插件配合`B`：搜索书签, `O`: 搜索历史记录来搜索网址
-- 使用插件`Always Clear Downloads`自动隐藏下载栏
-
