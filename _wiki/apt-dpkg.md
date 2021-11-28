@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: apt/dpgk
+title: Linux 命令行安装
 ---
 
 Software Management, updating...
