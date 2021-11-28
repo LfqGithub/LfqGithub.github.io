@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: 我就是孤独的
+description: 链接天下
 keywords: 友情链接
 comments: true
 menu: 链接

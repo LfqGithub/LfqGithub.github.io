@@ -11,12 +11,15 @@ description: Study
 # 工作桌
 
 ## \#0
+> 首选，当前最爱
 
 舍弃掉桌子，改为挂墙安装方式，省去四条桌腿，营造悬浮感
 
 <div align="center"><img width="300" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/house/desk0.png"/></div>
 
 使用普通支架显示器 + type-c 一线连接笔记本电脑, 外接键鼠
+
+不用旋转椅子，就普通餐椅就可以
 
 ## \#1
 

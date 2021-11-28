@@ -43,14 +43,6 @@ navs:
     label: 数学
 
   -
-    href: /quant/
-    label: 金融
-
-  -
-    href: /todo/
-    label: ToDo 
-
-  -
     href: /links/
     label: 链接
 
@@ -92,12 +84,6 @@ collections:
     math:
         output: true
         permalink: /math/:path/
-    quant:
-        output: true
-        permalink: /quant/:path/
-    other:
-        output: true
-        permalink: /other/:path/
 
 cdn:
      jsdelivr:
