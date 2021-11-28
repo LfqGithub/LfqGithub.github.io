@@ -7,10 +7,6 @@ categories: [workout]
 description: workout
 ---
 
-
-
-
-
 ## 热身Warm-up
 - 求求你了大腿内收肌拉伸--30s
 - 徒手深蹲--15次
@@ -69,7 +65,6 @@ description: workout
 ## 运动对膝盖的损伤程度
 羽毛球 > 跑步 >> 跳绳
 
-
 # 运动消耗
 
 简单计算，一个 70 公斤的人以 8 km/h 的速度跑步 1 h 消耗约 600 kcal. 
@@ -77,8 +72,6 @@ description: workout
 作为对比，一瓶 280 mL 的雅哈咖啡热量为 190kJ/100mL x 280mL = 532 kJ= 127大卡
 
 >>1大卡=1000卡=4.184kJ
-
-
 
 
 # Ref

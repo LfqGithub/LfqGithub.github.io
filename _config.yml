@@ -47,10 +47,6 @@ navs:
     label: 金融
 
   -
-    href: /other/
-    label: 其他 
-
-  -
     href: /todo/
     label: ToDo 
 
