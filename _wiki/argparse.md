@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: argparse
+title: Prgparse
 ---
 
 #  Syntax
