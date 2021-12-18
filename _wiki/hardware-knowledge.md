@@ -25,23 +25,6 @@ Updating...
   - SSD温度、读写速度
   - 系统风扇转速
 
-# CPU
-- i5 9600K Spec
-  - 核心/线程数：6
-  - 频率：`3.7~4.6 GHz`, 单/双/三/四/五/六核最高睿频：`4.6/4.5/4.4/4.4/4.3/4.3 GHz`
-
->>Intel标注的单核睿频意义不大，可能只有在只启用单核心的情况下才能达到
-
-# 内存
-- [内存颗粒分级](https://blog.csdn.net/tianruxishui/article/details/20054175)
-
-
-
-# 固态硬盘
-
-## 随机读写和连续读写
-
-
 # 显示器
 ## 接口
 不同分辨率显示器需要不同的带宽。以`8bit`色彩深度的`4k`显示器(3840\*2160)为例，如果想要达到基本的`60Hz`刷新率，每秒需要传输3840\*2160\*8\*3\*60=11943936000=11.9`Gbit`的信息。
@@ -67,9 +50,6 @@ Updating...
 
 ### 像素数
 <div align="center"><img width="800" src="https://raw.githubusercontent.com/LfqGithub/LfqGithub.github.io/master/images/hardware/pixels.png"/></div>
-
-- 绘图代码
-<script src="https://gist.github.com/bb5eeb8170963617e1bbfbf7f97e732c.js"></script>
 
 ### 稀(奇)有(葩)分辨率
 
@@ -121,23 +101,9 @@ Updating...
 - 常见主板规格：微星B360m迫击炮--mATX
 >> ATX: Advanced Technology eXtended, a motherboard and power supply configuration specification develop by Intel in 1995.
 
-# 音频设备
-## DAC
-Digital to Analog Converter, 解码器，从数字信号还原成模拟音视频信号的设备。如 带DAC的 Type-C 耳机插到 Type-C 形状的接口上，就可以播放音频。
-
 # 电源
 ## 电源规格
 - AT/ATX: 160mm$\cdot$150mm$\cdot$86mm, 适用于ATX, Micro-ATX主板
 - SFX: 125mm$\cdot$100mm$\cdot$63.5mm, 适用于Flex-ATX,Micro-ATX主板
 - SFX-L: 125mm$\cdot$130mm$\cdot$63.5mm
 - Flex: 81.5mm$\cdot$40.5mm$\cdot$150mm,又称1U电源，一般用于服务器中，现在也用在ITX机箱中
-
-# 风扇
-
-# BugFix
-- Win10 无线网络断开问题--[解决Win10笔记本电脑Wifi频繁断线的问题](https://blog.csdn.net/sjzsel/article/details/79614393)
-- Win10 蓝屏--[终止代码system service exception失败的操作为win32kbase.sys](https://answers.microsoft.com/zh-hans/windows/forum/all/%E7%BB%88%E6%AD%A2%E4%BB%A3%E7%A0%81system-service/bfec9180-356f-44f3-a9c1-43ccb552295e)
-
-# 参考内容
-- [内存性能-超能网](https://www.expreview.com/60107.html)
-- [内存等级](https://blog.csdn.net/tianruxishui/article/details/20054175)

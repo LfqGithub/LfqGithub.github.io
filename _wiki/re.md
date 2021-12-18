@@ -1,9 +1,8 @@
 ---
 layout: wiki
-title: RE
+title: Regular Expression
 ---
 
-Regular Expression
 
 # Syntax
 

@@ -23,10 +23,6 @@ keywords: note, website
 - [马同学高等数学](https://www.matongxue.com/)
 - [微软亚洲研究院](https://www.msra.cn/)
 
-## 科研
-- [材料人--科技服务平台](https://www.cailiaoren.com/)
-- [Indraw结构式编辑器--网页版](http://www.integle.com/static/indraw)
-- [molview](http://molview.org/)
 
 # 设计
 
