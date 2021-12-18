@@ -1,9 +1,9 @@
 ---
 layout: wiki
-title: 浏览器使用
+title: Browser
 keywords: 
-categories: [web browser, softwares]
-description: How to browse the web
+categories: [softwares]
+description: 更舒服的上网
 comments: yes
 ---
 
@@ -23,14 +23,11 @@ Browser Softwares, updating ...
 ## Plugins
 
 以下插件同样适用于 Chromium Core Edge Browser
-
+- uBlock Origin: 去广告，同时可以删除网页上几乎所有自己不需要/不喜欢的内容
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb): 使用Vim命令操作浏览器
 - [Vimium C](https://github.com/gdh1995/vimium-c): 和Vimium功能相同，速度更快
-- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb): 屏蔽网页广告
 - [Always Clear Downloads](https://chrome.google.com/webstore/detail/always-clear-downloads-in/efoelbbfbknfhpmgclpcdbkoieedkkai): 下载完成后自动隐藏下载栏
 - [TemperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo): Userscript manager
-  - Sci-hub button: 在doi链接后添加scihub按钮，直接跳转到sci-hub下载链接
-  - [本地Youtube下载器](https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader)
 - [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe): 屏蔽特定网站在google搜索结果中的展示, 如不想在谷歌搜索中显示cdsn等
 
 ## Themes
