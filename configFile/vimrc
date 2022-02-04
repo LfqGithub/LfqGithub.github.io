@@ -1,0 +1,37 @@
+set nu
+syntax enable
+
+colorscheme solarized8
+"colorscheme two-firewatch
+set background=dark
+
+set viminfo='1000,<800 "vim跨文件拷贝最大行数800
+set nocompatible              " required
+set termguicolors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""python""""""""""""""""""""""""""""""
+set shiftwidth=4
+set tabstop=4
+set history=200
+autocmd FileType python set expandtab
+set smartindent
+set autoindent
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""Vim Plugin"""""""""""""""""""""""""""""""""
+" autoinstall Vim-plug
+" Plug-in command: PlugInstall/PlugStatus/PlugUpdate/PlugClean/PlugUpdate/PlugUpgrade
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+call plug#begin('~/.vim/plugged')
+Plug 'Chiel92/vim-autoformat'
+call plug#end()
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType c,cpp autocmd BufWritePre * :Autoformat
+
+
+
