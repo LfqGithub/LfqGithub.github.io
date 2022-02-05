@@ -6,16 +6,9 @@ keywords: vim, linux
 description: Vim 学习
 ---
 
+# Vim config
 
-Updating...
-
-- [ ] 待整理
-
-
-# Vim Appearance
-
-主题: [Vim scheme--Solarized](https://ethanschoonover.com/solarized/)
-
+> 完整的 `~/.vimrc` 文件见`configFiles` 文件夹
 
 # Vim History
 
