@@ -6,6 +6,10 @@ keywords: vim, linux
 description: Vim 学习
 ---
 
+# vim appearance
+
+使用 MicroSoft Yahei Mono 字体，该字体英文是 Consolas, 中文是微软雅黑，是 windows 平台字体的相对最优解
+
 # Vim config
 
 > 完整的 `~/.vimrc` 文件见`configFiles` 文件夹
