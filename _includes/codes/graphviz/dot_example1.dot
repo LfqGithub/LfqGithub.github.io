@@ -1,7 +1,0 @@
-graph dot_example1 {
-	a--b;
-	a--c;
-	b--c;
-	c--d;
-	d--a;
-}

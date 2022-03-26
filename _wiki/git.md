@@ -6,7 +6,6 @@ description:
 keywords: git 
 ---
 
-- [ ] 待整理
 
 # Syntax
 
@@ -49,26 +48,11 @@ git merge --no-ff branchName # merge the branchName to current branch with non-f
 
 将分支bugfix合并到master，有几种情况(图片来自[猴子都能懂的git入门](https://backlogtool.com/git-tutorial/cn/stepup/stepup1_4.html)，侵删）
 - 当合并bugfix到master分支时，如果master分支没有被更改过，则合并非常简单。这种合并成为fast-forward合并
-  合并前：
-
-  ![alt](/images/git/bugfix_master.png)
-
-  合并后：
-
-  ![alt](/images/git/merge_fast_forward.png)    
 
 - 如果合并时master已经有新的修改，则需要将master分支和branchName分支修改内容汇合起来。
-  合并前：
-
-  ![alt](/images/git/bugfix_edited_master.png)
-
-  合并后:
-
-  ![alt](/images/git/merge_bugfix_edited_master.png) 
 
 - `no-fast-forward`选项，则即使能够fastforward合并，也会生成新的提交并合并。
 
-  ![alt](/images/git/merge_no_fast_forward.png)
 
 - rebase
     ```bash
